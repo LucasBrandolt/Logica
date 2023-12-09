@@ -95,11 +95,7 @@ if __name__ == '__main__':
 
                 preconditions = create_literals_for_level_from_list(i, precondition_no_level)
                 posconditions = create_literals_for_level_from_list(i + 1, poscondition_no_level)
-                XOR
-                0-0=0
-                0-1=1
-                1-0=1
-                1-1=0
+
                 for action_j in satPlanInstance.get_actions():
                     action_j_level = create_literal_for_level(i, action_j)
                     
